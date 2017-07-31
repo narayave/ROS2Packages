@@ -1,6 +1,6 @@
 # Written by Vedanth Narayanan
 # Oregon State University
-#
+# 7/27/17
 
 from time import sleep
 from std_msgs.msg import String
@@ -27,8 +27,8 @@ def main(args=None):
     while rclpy.ok():
         msg.data = 'Hello World: %d' % i
         i += 1
-        print('Publishing: "%s"' % msg.data)
-        publisher.publish(msg)
+        print('%s publishing: "%s"', node.publishers[0], msg.data)
+        talk.publish(msg)
         sleep(0.5)  # seconds
 
     # Destroy the node explicitly

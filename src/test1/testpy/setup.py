@@ -11,14 +11,12 @@ setup(
 	version='0.0.1',
 	packages=[],
 	py_modules=[
-		'subscriber_old_school',
-		'subscriber_lambda',
-		'subscriber_member_function'],
+		'talker'],
 	data_files=data_files,
 	install_requires=[
 		'setuptools',
 		'launch',
-		'pyjks'
+		# 'pyjks'
 	],
 	author='Vedanth Narayanan',
 	author_email='narayave@oregonstate.edu',
