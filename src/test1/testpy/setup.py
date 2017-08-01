@@ -16,7 +16,7 @@ setup(
 	install_requires=[
 		'setuptools',
 		'launch',
-		# 'pyjks'
+		'pyjks'
 	],
 	author='Vedanth Narayanan',
 	author_email='narayave@oregonstate.edu',
@@ -25,7 +25,7 @@ setup(
 	keywords=['ROS'],
 	classifiers=[
 		'Intended Audience :: Developers',
-		# 'License :: OSI Approved :: Apache Software License',
+		'License :: OSI Approved :: Apache Software License',
 		'Programming Language :: Python',
 		'Topic :: Software Development',
 	],
