@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(test1_testcpp)
+project(test1_cpp)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -14,11 +14,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(test1_testcpp_listener listener.cpp)
-ament_target_dependencies(test1_testcpp_listener rclcpp std_msgs)
+add_executable(listener listener.cpp)
+ament_target_dependencies(listener rclcpp std_msgs)
 
 install(TARGETS
-  test1_testcpp_listener
+  listener
   DESTINATION lib/${PROJECT_NAME}
 )
 
