@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
-  <name>test1_testpy_talker</name>
+  <name>test1_py</name>
   <version>0.0.1</version>
   <description>Testing a new python package for ROS2.</description>
 

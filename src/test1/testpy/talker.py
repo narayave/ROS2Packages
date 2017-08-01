@@ -18,8 +18,7 @@ def main(args=None):
     rclpy.init(args=args)
 
     node = rclpy.create_node('talker')
-
-    talk = node.create_publisher(String, 'topic')
+    talk = node.create_publisher(String, 'chat')
 
     msg = String()
 
