@@ -1,4 +1,0 @@
-[console_scripts]
-service = service:main
-service_member_function = service_member_function:main
-
