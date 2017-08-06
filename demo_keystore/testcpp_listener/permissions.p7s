@@ -1,0 +1,54 @@
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----C127F20C23B49ABB69FA1D3E9F61D485"
+
+This is an S/MIME signed message
+
+------C127F20C23B49ABB69FA1D3E9F61D485
+Content-Type: text/plain
+
+<permissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.omg.org/spec/DDS-SECURITY/20140301/dds_security_permissions.xsd">
+  <grant name="testcpp_listener_policies">
+    <subject_name>CN=testcpp_listener</subject_name>
+    <validity>
+      <!-- Format is YYYYMMDDHH in GMT -->
+      <not_before>2016122000</not_before>
+      <not_after>2026122000</not_after>
+    </validity>
+    <allow_rule>
+      <domain_id>0</domain_id>
+      <publish>
+        <topic>*</topic>
+      </publish>
+      <subscribe>
+        <topic>*</topic>
+      </subscribe>
+    </allow_rule>
+    <default>DENY</default>
+  </grant>
+</permissions>
+
+------C127F20C23B49ABB69FA1D3E9F61D485
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIIC0gYJKoZIhvcNAQcCoIICwzCCAr8CAQExDzANBglghkgBZQMEAgEFADALBgkq
+hkiG9w0BBwGgggEfMIIBGzCBwgIJAM3qG1isD5mqMAoGCCqGSM49BAMCMBYxFDAS
+BgNVBAMMC3Nyb3MydGVzdENBMB4XDTE3MDgwNjIxMDAwOVoXDTI3MDgwNDIxMDAw
+OVowFjEUMBIGA1UEAwwLc3JvczJ0ZXN0Q0EwWTATBgcqhkjOPQIBBggqhkjOPQMB
+BwNCAAQUMrfaKlMpQZSq61z6liAHQSwoQiK9xu/e7hIDk31Njq6auJbk82ALJguk
+/EF/y+J9emZjo/3WBTcAhHO9OyqJMAoGCCqGSM49BAMCA0gAMEUCIGZZ/2tuW3bE
+wkNIw8akY/Lk7Tn63Odut2bXAsI9SQSnAiEA6XSW1edYbamZZCVk+kz9m1yTPqC8
+gCKQB9CzHvZjCvAxggF3MIIBcwIBATAjMBYxFDASBgNVBAMMC3Nyb3MydGVzdENB
+AgkAzeobWKwPmaowDQYJYIZIAWUDBAIBBQCggeQwGAYJKoZIhvcNAQkDMQsGCSqG
+SIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTcwODA2MjIzMTA1WjAvBgkqhkiG9w0B
+CQQxIgQgku5f8MdPavgYVFUy3473lxkMssBZHQBwuKp+Yfll3VwweQYJKoZIhvcN
+AQkPMWwwajALBglghkgBZQMEASowCwYJYIZIAWUDBAEWMAsGCWCGSAFlAwQBAjAK
+BggqhkiG9w0DBzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4D
+AgcwDQYIKoZIhvcNAwICASgwCgYIKoZIzj0EAwIERzBFAiEAxbmu/+f1xyOrM7EV
+XNrLVJlxyGNiFEAyvQDPxMqTyyACIFa8SgDhieC6MMEuEBWBWmUP7kgabUxYRCbi
+GqwMbzxH
+
+------C127F20C23B49ABB69FA1D3E9F61D485--
+
