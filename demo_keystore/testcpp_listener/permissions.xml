@@ -9,11 +9,11 @@
     </validity>
     <allow_rule>
       <domain_id>0</domain_id>
-      <publish>
-        <topic>*</topic>
-      </publish>
       <subscribe>
-        <topic>*</topic>
+        <topic>chat</topic>
+      </subscribe>
+      <subscribe>
+        <topic>DCPS*</topic>
       </subscribe>
     </allow_rule>
     <default>DENY</default>

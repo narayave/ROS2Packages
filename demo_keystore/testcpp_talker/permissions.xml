@@ -10,10 +10,10 @@
     <allow_rule>
       <domain_id>0</domain_id>
       <publish>
-        <topic>*</topic>
+        <topic>chat</topic>
       </publish>
       <subscribe>
-        <topic>*</topic>
+        <topic>DCPS*</topic>
       </subscribe>
     </allow_rule>
     <default>DENY</default>

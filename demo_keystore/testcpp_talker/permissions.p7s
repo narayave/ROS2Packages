@@ -1,9 +1,9 @@
 MIME-Version: 1.0
-Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----8A3C66E95DE01B6698DE985663F8B3B3"
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----DED88143A13EE6F15C252B56F7EF6EB7"
 
 This is an S/MIME signed message
 
-------8A3C66E95DE01B6698DE985663F8B3B3
+------DED88143A13EE6F15C252B56F7EF6EB7
 Content-Type: text/plain
 
 <permissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -18,17 +18,17 @@ Content-Type: text/plain
     <allow_rule>
       <domain_id>0</domain_id>
       <publish>
-        <topic>*</topic>
+        <topic>chat</topic>
       </publish>
       <subscribe>
-        <topic>*</topic>
+        <topic>DCPS*</topic>
       </subscribe>
     </allow_rule>
     <default>DENY</default>
   </grant>
 </permissions>
 
-------8A3C66E95DE01B6698DE985663F8B3B3
+------DED88143A13EE6F15C252B56F7EF6EB7
 Content-Type: application/x-pkcs7-signature; name="smime.p7s"
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="smime.p7s"
@@ -42,13 +42,13 @@ BwNCAAQUMrfaKlMpQZSq61z6liAHQSwoQiK9xu/e7hIDk31Njq6auJbk82ALJguk
 wkNIw8akY/Lk7Tn63Odut2bXAsI9SQSnAiEA6XSW1edYbamZZCVk+kz9m1yTPqC8
 gCKQB9CzHvZjCvAxggF3MIIBcwIBATAjMBYxFDASBgNVBAMMC3Nyb3MydGVzdENB
 AgkAzeobWKwPmaowDQYJYIZIAWUDBAIBBQCggeQwGAYJKoZIhvcNAQkDMQsGCSqG
-SIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTcwODA2MjIzOTM0WjAvBgkqhkiG9w0B
-CQQxIgQgpGkbpsyq1RN+Nlt7Zpj4wtsTYWXxBgvWZ2hTeNf3g5oweQYJKoZIhvcN
+SIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTcwODA2MjMwMjMyWjAvBgkqhkiG9w0B
+CQQxIgQg7HKAs783CZafyatSfG6OwuYRUye4k76H7g7FeyyXNBQweQYJKoZIhvcN
 AQkPMWwwajALBglghkgBZQMEASowCwYJYIZIAWUDBAEWMAsGCWCGSAFlAwQBAjAK
 BggqhkiG9w0DBzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4D
-AgcwDQYIKoZIhvcNAwICASgwCgYIKoZIzj0EAwIERzBFAiAmGlYvJqi7rszclY+X
-zvgLizqCaFjTo1Eya6iuyciokQIhAJRovkBcKqGNWpU1RVFLvOvPeZMueSgfIo4A
-gxIvldkG
+AgcwDQYIKoZIhvcNAwICASgwCgYIKoZIzj0EAwIERzBFAiAzmo1Tz/n9vYDnLu25
+mifdBvr7whQRGZ8tG1XDyK79/AIhAOwt5QoCpvWkv8O5cmDs/HRfGe3JlVYU5lWJ
+kBqCp+PI
 
-------8A3C66E95DE01B6698DE985663F8B3B3--
+------DED88143A13EE6F15C252B56F7EF6EB7--
 

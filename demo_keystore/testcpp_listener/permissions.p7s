@@ -1,9 +1,9 @@
 MIME-Version: 1.0
-Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----C127F20C23B49ABB69FA1D3E9F61D485"
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----D311E6DEFF723466C4179DFE721317D6"
 
 This is an S/MIME signed message
 
-------C127F20C23B49ABB69FA1D3E9F61D485
+------D311E6DEFF723466C4179DFE721317D6
 Content-Type: text/plain
 
 <permissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -17,18 +17,18 @@ Content-Type: text/plain
     </validity>
     <allow_rule>
       <domain_id>0</domain_id>
-      <publish>
-        <topic>*</topic>
-      </publish>
       <subscribe>
-        <topic>*</topic>
+        <topic>chat</topic>
+      </subscribe>
+      <subscribe>
+        <topic>DCPS*</topic>
       </subscribe>
     </allow_rule>
     <default>DENY</default>
   </grant>
 </permissions>
 
-------C127F20C23B49ABB69FA1D3E9F61D485
+------D311E6DEFF723466C4179DFE721317D6
 Content-Type: application/x-pkcs7-signature; name="smime.p7s"
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="smime.p7s"
@@ -42,13 +42,13 @@ BwNCAAQUMrfaKlMpQZSq61z6liAHQSwoQiK9xu/e7hIDk31Njq6auJbk82ALJguk
 wkNIw8akY/Lk7Tn63Odut2bXAsI9SQSnAiEA6XSW1edYbamZZCVk+kz9m1yTPqC8
 gCKQB9CzHvZjCvAxggF3MIIBcwIBATAjMBYxFDASBgNVBAMMC3Nyb3MydGVzdENB
 AgkAzeobWKwPmaowDQYJYIZIAWUDBAIBBQCggeQwGAYJKoZIhvcNAQkDMQsGCSqG
-SIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTcwODA2MjIzMTA1WjAvBgkqhkiG9w0B
-CQQxIgQgku5f8MdPavgYVFUy3473lxkMssBZHQBwuKp+Yfll3VwweQYJKoZIhvcN
+SIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTcwODA2MjMwMzE2WjAvBgkqhkiG9w0B
+CQQxIgQgO/ZuCeoU+lJ3fOd96bxWENznDlyp8kY7PKFyRuqntfMweQYJKoZIhvcN
 AQkPMWwwajALBglghkgBZQMEASowCwYJYIZIAWUDBAEWMAsGCWCGSAFlAwQBAjAK
 BggqhkiG9w0DBzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4D
-AgcwDQYIKoZIhvcNAwICASgwCgYIKoZIzj0EAwIERzBFAiEAxbmu/+f1xyOrM7EV
-XNrLVJlxyGNiFEAyvQDPxMqTyyACIFa8SgDhieC6MMEuEBWBWmUP7kgabUxYRCbi
-GqwMbzxH
+AgcwDQYIKoZIhvcNAwICASgwCgYIKoZIzj0EAwIERzBFAiEAmVeQdAu2nOCoGoRe
+9TUexF09pjGFKaD0+BV1oImUpW8CIH1nUGF4k1M3rH/vDF418/1DCjyGw2L3bN/S
+jlt0kU8F
 
-------C127F20C23B49ABB69FA1D3E9F61D485--
+------D311E6DEFF723466C4179DFE721317D6--
 
