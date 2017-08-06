@@ -2,20 +2,20 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-
 #include "std_msgs/msg/float32.hpp"
 
 void chatCallback(const std_msgs::msg::Float32::SharedPtr msg)
 {
 	std::cout << "I heard: [" << msg->data << "]" << std::endl;
 }
+
 //create a subscriber
 int main(int argc, char * argv[])
 {
 	rclcpp::init(argc, argv);
 	
 	// create a node
-	auto node = rclcpp::Node::make_shared("test1_testcpp_listener");
+	auto node = rclcpp::Node::make_shared("testcpp_listener");
 
 	auto sub = node->create_subscription<std_msgs::msg::Float32>(
 		"chat", chatCallback, rmw_qos_profile_default);

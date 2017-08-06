@@ -8,7 +8,7 @@ int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
 
-  auto node = rclcpp::node::Node::make_shared("talker_float");
+  auto node = rclcpp::node::Node::make_shared("testcpp_talker");
 
   // Set the QoS. ROS 2 will provide QoS profiles based on the following use cases:
   // Default QoS settings for publishers and subscriptions (rmw_qos_profile_default).

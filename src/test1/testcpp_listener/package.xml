@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
-  <name>test1_cpp</name>
+  <name>testcpp_listener</name>
   <version>0.0.1</version>
-  <description>Testing CPP node for ROS2</description>
+  <description>Testing CPP node for ROS2 - listener</description>
   <maintainer email="narayave@oregonstate.edu">Vedanth Narayanan</maintainer>
   <license>Apache License 2.0</license>
 
